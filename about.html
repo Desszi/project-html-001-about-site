@@ -60,22 +60,22 @@
     </section>
 
     <div class="container">
-        <form action="">
+        <form class="form-horizontal">
             <fieldset>
                 <legend>Küldj üzenetet nekem!</legend>
-                <div>
-                    <label for="name">Név*:</label>
-                    <input type="text" name="name" id="name" required>
+                <div class="form-group">
+                    <label for="e_name">Név*:</label>
+                    <input type="text" class="form-control" name="name" id="e_name" required>
                 </div>
-                <div>
-                    <label for="email">Email-cím*:</label>
-                    <input type="text" name="email" id="email" required>
+                <div class="form-group">
+                    <label for="e_email">Email-cím*:</label>
+                    <input type="text" class="form-control" name="email" id="e_email" aria-describedby="emailHelp" required>
                 </div>
-                <div>
-                    <label for="comment">Üzenet*:</label>
-                    <textarea type="text" name="comment" id="comment" cols="30" rows="10"></textarea>
+                <div class="form-group">
+                    <label for="e_comment">Üzenet*:</label>
+                    <textarea type="text" class="form-control" name="comment" id="e_comment" cols="30" rows="10" required></textarea>
                 </div>
-                <input type="button" value="Üzenet küldése">
+                <button type="submit" class="btn btn-success">Üzenet küldése</button> 
             </fieldset>
         </form>
     </div>
