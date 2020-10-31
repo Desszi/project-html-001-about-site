@@ -8,6 +8,12 @@
 
 }
 
+@media screen and (max-width: 776px) {
+  #img-0 {
+    width: 100%;
+  }
+}
+
 fieldset {
   display: block;
   margin-inline-start: 2px;
@@ -41,3 +47,4 @@ form {
   background-color: #28a745;
   border-color: #28a745;
 }
+
