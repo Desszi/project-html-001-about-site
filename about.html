@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porkoláb Mercédesz Anett</title>
- 
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
     <header>
         <nav>
-            <h1>Rólam, Porkoláb Mercédeszről</h1>
+            <div style="display: inline-block;">
+                <img src="/imagines/tabloen.png" alt="Én" width="200">
+            </div>
+            <h1 style="display: inline-block;">Rólam, Porkoláb Mercédeszről</h1>
         </nav>
     </header>
 
@@ -24,9 +28,57 @@
             <li><a href="about.html">Rólam</a></li>
         </ul>
     </nav>
+    <main>
+        <section>
+            <article>
+                <h3>Ki vagyok én?</h3>
+                <p>
+                <ul>
+                    <li>Egy programozásban lelkes egyetemista lány, akit érdekel az informatika világa.</li>
+                    <li>Ez egyetem mellett, 2017 óta kosárlabda játékvezető vagyok a Pest megyei Kosárlabda
+                        Szövetsgénél.</li>
+                    <li>Nagyon szeretek sportolni, 7 éves korom óta kosárlabdáztam, melyet 17 évesen, 2016-ban hagytam
+                        abba.</li>
+                    <li>1999.08.22-én születtem Budapesten, 16 éves koromig Szentendrén éltem, most 21 vagyok.</li>
+                    <li>Jelenleg Budapesten, Kőbányán élek a szüleimmel.</li>
+                    <li>Nagyon szeretem az állatokat, van egy macskám is, akinek Picúr a neve.</li>
+                    <li>Hobbim a rajzolás, főleg állatokat igyekszem realisztikusan ábrázolni.</li>
+                </ul>
+                </p>
+            </article>
+        </section>
+    </main>
+    <section>
+        <article>
+            <h3>A három érdeklődési területem:</h3>
+            <ol>
+                <li>Programozás/informatika</li>
+                <li>Kosárlabda/sportok</li>
+                <li>Rajzolás/művészetek</li>
+            </ol>
+        </article>
+    </section>
 
-    <main></main>
-    <section></section>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend>Küldj üzenetet nekem!</legend>
+                <div>
+                    <label for="name">Név*:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email-cím*:</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="comment">Üzenet*:</label>
+                    <textarea type="text" name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+                <input type="button" value="Üzenet küldése">
+            </fieldset>
+        </form>
+    </div>
 
     <footer>
         <nav>
