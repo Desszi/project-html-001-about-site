@@ -65,15 +65,15 @@
                 <legend>Küldj üzenetet nekem!</legend>
                 <div class="form-group">
                     <label for="e_name">Név*:</label>
-                    <input type="text" class="form-control" name="name" id="e_name" required>
+                    <input type="text" class="form-control" name="name" id="e_name" minlength="5" required>
                 </div>
                 <div class="form-group">
                     <label for="e_email">Email-cím*:</label>
-                    <input type="email" class="form-control" name="email" id="e_email" aria-describedby="emailHelp" required>
+                    <input type="email" class="form-control" name="email" id="e_email" minlength="5" required>
                 </div>
                 <div class="form-group">
                     <label for="e_comment">Üzenet*:</label>
-                    <textarea type="text" class="form-control" name="comment" id="e_comment" cols="30" rows="10" required></textarea>
+                    <textarea type="text" class="form-control" name="comment" id="e_comment" minlength="20" cols="30" rows="10" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-success">Üzenet küldése</button> 
             </fieldset>
